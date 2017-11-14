@@ -5,14 +5,13 @@
 ## Requirements
 ### Software
 
-`LRTK-SEQ` was implemented by [`python3`](https://www.python.org/downloads/source/) and three external packages are needed to be pre-installed: [`numpy`](http://www.numpy.org/), [`pysam`](http://pysam.readthedocs.io/en/latest/index.html), [`matplotlib`](https://matplotlib.org/). LRTK-SEQ also applied several available programes [`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/), [`Picard`](http://broadinstitute.github.io/picard/), [`GATK`](https://software.broadinstitute.org/gatk/download/auth?package=GATK), [`BWA`](https://github.com/lh3/bwa), [`SAMtools`](http://www.htslib.org/), [`sbt`](http://www.scala-sbt.org/), [`fgbio`](https://github.com/fulcrumgenomics/fgbio), [`HapCut2`](https://github.com/vibansal/HapCUT2) and [`NAIBR`](https://github.com/raphael-group/NAIBR). If some software are already installed in your system, please make a softlink of the executable program to the software directory that specified by `LRTK-SEQ.py Config -s` 
+`LRTK-SEQ` was implemented by [`python3`](https://www.python.org/downloads/source/) and three external packages are needed to be pre-installed: [`numpy`](http://www.numpy.org/), [`pysam`](http://pysam.readthedocs.io/en/latest/index.html), [`matplotlib`](https://matplotlib.org/). LRTK-SEQ also applied several available programes [`MultiQC`](http://multiqc.info/), [`Picard`](http://broadinstitute.github.io/picard/), [`GATK`](https://software.broadinstitute.org/gatk/download/auth?package=GATK), [`BWA`](https://github.com/lh3/bwa), [`SAMtools`](http://www.htslib.org/), [`sbt`](http://www.scala-sbt.org/), [`fgbio`](https://github.com/fulcrumgenomics/fgbio), [`HapCut2`](https://github.com/vibansal/HapCUT2) and [`NAIBR`](https://github.com/raphael-group/NAIBR). If some software are already installed in your system, please make a softlink of the executable program to the software directory that specified by `LRTK-SEQ.py Config -s` 
 
 ### Dataset
-reference genome(fasta) <br>
-barcode whitelist(fasta) <br>
-https://software.broadinstitute.org/gatk/download/bundle
 
-`LRTK-SEQ` also provides an auxiliary programe `preinstall.sh` to preinstall all the requisite automatically. Please make sure your system is connected to the internet. All the software and dataset are downloaded and installed to `./bin` and `./dataset`, respectively.
+Three datasets should be pre-downloaded: reference genome (fasta format), barcode whitelist (fasta format) and [GATK bundle](https://software.broadinstitute.org/gatk/download/bundle)<br>
+
+`LRTK-SEQ` provides an auxiliary programe `preinstall.sh` to preinstall all the requisite automatically. Please make sure your system is connected to the internet. All the software and dataset are downloaded and installed to `./bin` and `./dataset`, respectively.
 
 ## Donwload `LRTK-SEQ` to local machine
 
